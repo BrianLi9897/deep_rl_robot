@@ -1,0 +1,14 @@
+<mujoco model="test">
+  <compiler angle="radian" autolimits="true"/>
+
+  <asset>
+    <material name="test_mat" rgba="0.5 0.5 0.5 1"/>
+  </asset>
+
+  <worldbody>
+    <geom type="plane" size="1 1 0.1" material="test_mat"/>
+    <body name="robot_base" pos="0 0 0">
+      <include file="panda.xml"/>
+    </body>
+  </worldbody>
+</mujoco>
