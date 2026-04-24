@@ -2,7 +2,7 @@
 
 A modern reinforcement learning environment for training robotic manipulation skills using the **Franka Panda 7-DOF arm** with a 2-finger gripper in a simulated office workspace.
 
-## 🎯 What's This About?
+## What's This About?
 
 This project combines **MuJoCo physics simulation** with **Gymnasium** (gym-compatible) to create a challenging RL environment where an agent learns to autonomously reach and grasp objects on a desk. It's perfect for exploring RL algorithms like PPO, SAC, or TD3 applied to continuous control.
 
@@ -10,7 +10,7 @@ This project combines **MuJoCo physics simulation** with **Gymnasium** (gym-comp
 
 ---
 
-## 🤖 Environment Details
+## Environment Details
 
 ### Robot
 - **Franka Panda 7-DOF arm** with 2-finger parallel gripper
@@ -39,7 +39,7 @@ This project combines **MuJoCo physics simulation** with **Gymnasium** (gym-comp
 
 ---
 
-## 🧠 Reinforcement Learning Concepts
+## Reinforcement Learning Concepts
 
 ### Why This Environment?
 
@@ -74,7 +74,7 @@ This project combines **MuJoCo physics simulation** with **Gymnasium** (gym-comp
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Setup
 ```bash
@@ -109,7 +109,7 @@ print(f"Reward: {reward:.3f}")
 
 ---
 
-## 🎬 Training Progress Visualization
+## Training Progress Visualization
 
 ### Before Training (Initial Behavior)
 Random exploration—the agent has not learned any meaningful strategy yet. The arm flails randomly without coordination, unable to reach the target cup.
@@ -135,14 +135,14 @@ https://github.com/BrianLi9897/deep_rl_robot/blob/main/videos/after_training_som
 - Typical reward: **~-0.5 to -1.5 per episode** (much closer to target)
 
 **Learning Highlights:**
-- ✅ Joint coordination emerges (no more random flailing)
-- ✅ Distance to target decreases by ~5–10x
-- ✅ Grasp success rate improves significantly
-- ✅ Obstacle avoidance is learned implicitly (negative collisions in reward)
+- Joint coordination emerges (no more random flailing)
+- Distance to target decreases by ~5–10x
+- Grasp success rate improves significantly
+- Obstacle avoidance is learned implicitly (negative collisions in reward)
 
 ---
 
-## 📊 Training Tips
+## Training Tips
 
 1. **Reward Scaling**
    - The distance reward dominates early; consider scaling by exploration bonus for variance
@@ -169,7 +169,7 @@ https://github.com/BrianLi9897/deep_rl_robot/blob/main/videos/after_training_som
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 arm_rl/
 ├── env/
@@ -188,7 +188,7 @@ arm_rl/
 
 ---
 
-## 🔗 References
+## References
 
 - **MuJoCo:** https://mujoco.readthedocs.io/ — Physics engine and XML format
 - **Gymnasium:** https://gymnasium.farama.org/ — RL environment interface (successor to OpenAI Gym)
@@ -199,14 +199,13 @@ arm_rl/
 
 ---
 
-## 💡 Future Enhancements
+## Future Enhancements
 
 - [ ] Multi-object reaching (multiple cups)
 - [ ] Hierarchical RL (learn reach skill, then grasp skill)
 - [ ] Domain randomization (mass, friction, object size randomization)
-- [ ] Real-world validation with actual Franka Panda
 - [ ] Imitation learning from human demonstrations
 
 ---
 
-**Happy training! 🦾**
+**Happy training!**
