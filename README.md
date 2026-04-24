@@ -114,7 +114,7 @@ print(f"Reward: {reward:.3f}")
 ### Before Training (Initial Behavior)
 Random exploration—the agent has not learned any meaningful strategy yet. The arm flails randomly without coordination, unable to reach the target cup.
 
-https://github.com/user/repo/raw/main/videos/initial_training.webm
+https://github.com/BrianLi9897/deep_rl_robot/raw/main/videos/initial_training.webm
 
 **What you see:**
 - Jerky, uncoordinated arm movements
@@ -125,7 +125,7 @@ https://github.com/user/repo/raw/main/videos/initial_training.webm
 ### After Training (~1000–2000 episodes)
 The agent has learned a coherent reaching strategy. It smoothly moves the end-effector toward the cup, approaches carefully, and begins to grasp.
 
-https://github.com/user/repo/raw/main/videos/after_training_sometime.webm
+https://github.com/BrianLi9897/deep_rl_robot/raw/main/videos/after_training_sometime.webm
 
 **What you see:**
 - Smooth, purposeful arm trajectories
