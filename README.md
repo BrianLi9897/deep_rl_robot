@@ -140,6 +140,12 @@ https://github.com/BrianLi9897/deep_rl_robot/blob/main/videos/after_training_som
 - Grasp success rate improves significantly
 - Obstacle avoidance is learned implicitly (negative collisions in reward)
 
+### Training in Action
+
+![Arm reaching for cup during training](images/in_training.png)
+
+*The Panda arm executing a learned reaching motion during an active training episode.*
+
 ---
 
 ## Training Tips
@@ -181,6 +187,8 @@ arm_rl/
 ├── videos/
 │   ├── initial_training.webm      # Random exploration (pre-training)
 │   └── after_training_sometime.webm  # Learned reaching strategy
+├── images/
+│   └── in_training.png           # Screenshot of arm during training
 ├── train.py                       # RL training script
 ├── requirements.txt               # Project dependencies
 └── README.md                      # This file
